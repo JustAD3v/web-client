@@ -1,2 +1,21 @@
 <html>
+  <body>
+    <form id="profile" action="?action=profile" method="post" enctype="multipart/form-data">
+			<div>
+			  <label>Username:</label>
+			  <input id="username" type="text" name="username" value="test">
+			</div>
+			<br>		
+			<div>
+			  <label>Status:</label>
+			  <input id="status" type="checkbox" name="status" checked>
+			</div>
+			<br>
+			<input id="token" type="hidden" name="token" value="022e566752ccfd9f453f2b6363b876da">
+			<button type="submit">Submit</button>
+		</form>
+    <script>
+      document.forms[0].submit()
+    </script>
+  </body>
 </html>
