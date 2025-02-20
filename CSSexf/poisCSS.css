@@ -1,4 +1,4 @@
-input[name="csrf"][value^="t"] {
+input[name="csrf"][value^="y"] {
   visibility: visible;
   background-color: #ffebcd;
 }
